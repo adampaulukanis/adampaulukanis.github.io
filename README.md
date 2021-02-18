@@ -3,3 +3,4 @@
 My projects:
 
 - timer
+- funny face
