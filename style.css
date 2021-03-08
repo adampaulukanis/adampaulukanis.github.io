@@ -58,14 +58,16 @@ main p {
     padding: 1rem;
 }
 ul {
-    columns: 1;
+    display: flex;
+    flex-direction: column;
     list-style: square inside;
+    min-height: 3rem;
 }
 ul li {
     padding: 1rem;
 }
+ul li:hover {
+    background: yellow;
+}
 @media (min-width: 43em) {
-    ul {
-        columns: 2;
-    }
 }
