@@ -1,8 +1,9 @@
 # adampaulukanis.github.io
 
-My projects:
+My webpage should have/be:
 
-- timer
-- funny face
-- rotating-letters
-- gra-pamięciówka
+- about page, I would like to have there my signature Adam Paulukanis done in
+  SVG which would like hand written and animated.
+- some good contact information
+- a list of my projects
+- etc.
