@@ -6,64 +6,98 @@
     <meta name="description" content="I want to show you my projects" />
     <meta name="author" content="Adam" />
     <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="flex flex-column">
     <main>
       <h1>Hi there!</h1>
 
       <p>Have a look at the list of my projects:</p>
-      <ul>
-        <li>
-          <a href="https://adampaulukanis.github.io/timer/">timer</a>
-        </li>
-        <li>
-          <a href="https://adampaulukanis.github.io/funny-face/">funny face</a>
-        </li>
-        <li>
-          <a href="https://adampaulukanis.github.io/rotating-letters/"
-            >rotating-letters</a
-          >
-        </li>
-        <li>
-          <a href="https://github.com/adampaulukanis/noip-client"
-            >My own <em>noip</em> client</a
-          >
-          The reason why I wrote it was I needed a program to update my dynamic
-          IP
-        </li>
-        <li>
-          <a href="https://github.com/adampaulukanis/ElectronicLife"
-            >ElectronicLife</a
-          >
-          Electronic simulation of simple forms of life
-        </li>
 
-        <li>
-          <a href="https://adampaulukanis.github.io/gra-pamieciowka/"
-            >gra-pamięcówka</a
-          >
-        </li>
-
-        <li>
-          <a href="https://adampaulukanis.github.io/52games/uklad-sloneczny/"
-            >układ słoneczny</a
-          >
-        </li>
-      </ul>
-
-      <section>
-        <h2>frontendmentor.io challenges</h2>
-        <ul>
-          <li>
-            <a
-              href="https://adampaulukanis.github.io/profile-card-component/index.html"
-              >profile-card-component</a
+      <div class="card-grid">
+        <div class="card">
+          <header class="image">
+            <img src="timer.png" alt="A picture of my timer" />
+          </header>
+          <section>
+            <p>I need a timer.</p>
+            <p>
+              I could of course use a pomodoro app or any other timer, but I
+              want to make my own version of this. And here it is.
+            </p>
+          </section>
+          <footer>
+            <a href="https://adampaulukanis.github.io/timer/" class="link"
+              >Link</a
             >
-          </li>
-        </ul>
-      </section>
+            <a
+              href="https://github.com/adampaulukanis/timer"
+              class="link link-outline"
+              >GitHub link</a
+            >
+          </footer>
+        </div>
+
+        <div class="card">
+          <header>My own <em>noip</em> client</header>
+          <section>
+            <p>
+              The reason why I wrote it was I needed a program to update my
+              dynamic IP.
+            </p>
+          </section>
+          <footer>
+            <a
+              href="https://github.com/adampaulukanis/noip-client"
+              class="link link-outline"
+              >GitHub link</a
+            >
+          </footer>
+        </div>
+
+        <div class="card">
+          <header class="image">
+            <img
+              src="ElectronicLife.png"
+              alt="A screen of ElectronicLife program"
+            />
+          </header>
+          <section><p>Electronic simulation of simple form lives.</p></section>
+          <footer>
+            <a
+              href="https://github.com/adampaulukanis/ElectronicLife"
+              class="link link-outline"
+              >GitHub link</a
+            >
+          </footer>
+        </div>
+
+        <!--
+        <div class="card card-shadow">
+          <header>Name</header>
+          <section>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio
+            senectus.
+          </section>
+          <footer>
+            <a href="#" class="link">Details</a>
+            <a href="#" class="link link-outline">GitHub link</a>
+          </footer>
+        </div>
+        -->
+
+
+      </div> <!-- end of .card-grid -->
+
     </main>
-    <footer>
+
+    <footer class="bottom">
       <p>
         Check out my
         <a href="https://github.com/adampaulukanis">github</a>.
