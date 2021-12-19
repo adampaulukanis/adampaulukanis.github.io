@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background:#0d1117;
+  background: #0d1117;
 }
 *,
 *::before,
@@ -15,16 +15,16 @@ html {
 }
 .card {
   --padding: 1rem;
-  background:#0d1117;
+  background: #0d1117;
   color: white;
   border: 1px solid #fee;
   border-radius: 0.25rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.9);
   overflow: hidden;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .card.card-shadow {
   border: none;
@@ -114,4 +114,20 @@ a:active {
 .bottom a {
   background: white;
   padding: 0.2em;
+}
+.built-webpages {
+  background: white;
+  color: black;
+}
+.gh-avatar {
+  width: 2em;
+  aspect-ratio: 1;
+  border-radius:100%;
+}
+a:hover > img {
+  transform:scale(1.2);
+}
+.built-webpages li {
+  border-left:2px solid pink;
+  padding:1em;
 }
